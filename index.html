@@ -1,46 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rohail Iqbal</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <nav id="desktop-nav">
-      <div class="nav-logo">Rohail Iqbal</div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#about" class="contact">About</a></li>
-          <li><a href="#experience" class="contact">Experience</a></li>
-          <li><a href="#projects" class="contact">Projects</a></li>
-          <li><a href="#contact" class="contact">Contact</a></li>
-        </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rohail Iqbal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="nav-logo">Rohail Iqbal</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about" class="contact">About</a></li>
+        <li><a href="#experience" class="contact">Experience</a></li>
+        <li><a href="#projects" class="contact">Projects</a></li>
+        <li><a href="#contact" class="contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Rohail Iqbal</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
-    </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">Rohail Iqbal</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
       </div>
-    </nav>
+    </div>
+  </nav>
     <section id="profile">
       <div class="section__pic-container">
         <img src="./assets/rohail_BGb.png" />
@@ -50,7 +47,7 @@
         <h1 class="title">Rohail Iqbal</h1>
         <p class="section__text__p2">Front-End Dev</p>
         <div class="btn-container">
-          <button class="btn btn-color-2" style="color: white;">
+          <button class="btn btn-color-2" style="color: black;">
             View Resume
           </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
@@ -92,8 +89,8 @@
                 alt="Experience icon"
                 class="icon"
               />
-              <h3 style="color:#f3f4f6;">Experience</h3>
-              <p style="color:#f3f4f6;">1+ year<br />Front-End Web Development</p>
+              <h3>Experience</h3>
+              <p>1+ year<br />Front-End Web Development</p>
             </div>
             <div class="details-container">
               <img
@@ -101,15 +98,16 @@
                 alt="Education icon"
                 class="icon"
               />
-              <h3 style="color:#f3f4f6;">Education</h3>
-              <p style="color:#f3f4f6;">BS Computer Science<br />FAST NUCES Peshawar </p>
+              <h3>Education</h3>
+              <p>BS Computer Science<br />FAST NUCES Peshawar </p>
             </div>
           </div>
           <div class="text-container">
-            <p style="color:#f3f4f6;" >
-              Hi, I'm Rohail Iqbal and I am a 3rd Semester Computer Science student at FAST National University of Computer and Emerging Sciences, Peshawar.
-              I am a tech enthusiast and a curious learner. I have experience in Web Development using HTML CSS and JavaScript. I have accumulated ~3.0CGPA in my 1st year
-              and have been a part of various communities like GDSC and MLSA society at my campus. Aside from all this, I'm a thinker and I love to sing.
+            <p>
+              Hi, I'm Rohail Iqbal. I am a CS undergrad at FAST NUCES, Peshawar Campus. I try to blend in creativity with 
+              technical skills to create visually appealing Websites. I'm passionate about Front-End Development that is why
+              I'm learning React JS to improve my websites. Along with my technical skills, I am also very active with tech communities
+              and host events for students to improve their skills and improve myself as well in the process.
             </p>
           </div>
         </div>
@@ -170,7 +168,18 @@
                 />
                 <div>
                   <h3>JavaScript</h3>
-                  <p>Intermediate</p>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React JS</h3>
+                  <p>Beginner</p>
                 </div>
               </article>
             </div>
@@ -208,6 +217,17 @@
                 />
                 <div>
                   <h3>DSA</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Assembly Language</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -218,8 +238,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Python</h3>
-                  <p>Beginner</p>
+                  <h3>Git</h3>
+                  <p>Experienced</p>
                 </div>
               </article>
             </div>
@@ -358,7 +378,7 @@
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 Rohail Iqbal. All Rights Reserved.</p>
+      <p>Copyright &#169; 2024 Rohail Iqbal. All Rights Reserved.</p>
     </footer>
     <script>
       function toggleMenu() {
